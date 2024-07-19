@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # autopr README
 
 This is the README for your extension "autopr". After writing up a brief description, we recommend including the following sections.
@@ -69,3 +70,6 @@ You can author your README using Visual Studio Code. Here are some useful editor
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
+=======
+# autopr
+>>>>>>> e5a65ebf2c8033cd27afbe56eee54a1629d459c2
