@@ -16,8 +16,43 @@
       {
         "command": "autopr.helloWorld",
         "title": "Hello World"
+      },
+      {
+        "command": "autopr.generatePR",
+        "title": "Generate PR"
       }
-    ]
+    ],
+    "viewsWelcome": [
+      {
+        "view": "autopr-sidebar",
+        "contents": "Welcome to AutoPR!\nAutomate your pull request creation process with ease.\n[Generate Template](command:autopr.helloWorld)\n[AutoPR](command:autopr.helloWorld)"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "autopr-sidebar",
+          "title": "AutoPR",
+          "icon": "./resources/pr_icon.png"
+        }
+      ]
+    },
+    "views": {
+      "autopr-sidebar":[
+        {
+          "id": "autopr-sidebar",
+          "name": "AutoPR"
+        },
+        {
+          "id": "generatedPRS",
+          "name": "Generated PRs"
+        },
+        {
+          "id": "prInProgress",
+          "name": "PRs in Progress"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
